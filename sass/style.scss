@@ -1,0 +1,41 @@
+// Basic style for every route item
+@mixin route-item {
+  padding: .5em !important;
+  border-radius: 5px;
+  margin-top: .5em !important;
+  color: white;
+}
+
+.red, .orange, .green, .blue, .silver, .bus, .commuter{
+  @include route-item;
+}
+
+// Set the custom colors for each route
+.red{
+  background-color: #DA291C;
+}
+
+.orange{
+  background-color: #ED8B00;
+}
+
+.green{
+  background-color: #00843D;
+}
+
+.blue{
+  background-color: #003DA5;
+}
+
+.silver{
+  background-color: #7C878E;
+}
+
+.bus{
+  background-color: #FFC72C;
+  color: black;
+}
+
+.commuter {
+  background-color: #80276C;
+}

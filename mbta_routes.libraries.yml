@@ -1,0 +1,4 @@
+routes_list:
+  css:
+    theme:
+      css/style.css: {}
